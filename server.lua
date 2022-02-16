@@ -79,7 +79,7 @@ Citizen.CreateThread(function()
 				local pl = GetPlayerName(tbl[theId].player)
 				tbl[theId].locked = false
 				TriggerClientEvent('LockGarage',-1,tbl)
-				Citizen.Trace("garage closed but player not found, opening..")
+				Citizen.Trace("Talli Suljettu Mutta Pelaajaa Ei Löytynyt Avetaan..")
 			end
 		end
 		SetTimeout(20000, openGarage)
