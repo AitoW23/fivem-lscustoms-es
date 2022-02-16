@@ -479,7 +479,7 @@ function WarMenu.SetTitleBackgroundSprite(id, textureDict, textureName)
 	RequestStreamedTextureDict(textureDict)
 	setMenuProperty(id, 'titleBackgroundSprite', { dict = textureDict, name = textureName })
 end
-
+joo
 
 function WarMenu.SetSubTitle(id, text)
 	setMenuProperty(id, 'subTitle', string.upper(text))
